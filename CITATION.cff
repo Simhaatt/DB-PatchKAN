@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and its archived release when available."
+type: software
+title: "DB-PatchKAN: Horizon-Adaptive Battery Capacity Forecasting and Driver-Aware Stress Modelling from Electric-Vehicle Field Data"
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/Simhaatt/DB-PatchKAN"
+url: "https://github.com/Simhaatt/DB-PatchKAN"
+# Keep full confirmed display names without guessing expanded initials/surname splits.
+authors:
+  - family-names: "Aswathy B. Raj"
+    affiliation: "Department of Electrical Engineering, National Institute of Technology Calicut, Kozhikode, Kerala, India"
+  - family-names: "T. T. Simhaa"
+    affiliation: "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, Tamil Nadu, India"
+  - family-names: "Shihabudheen K. V."
+    affiliation: "Department of Electrical Engineering, National Institute of Technology Calicut, Kozhikode, Kerala, India"
+abstract: "Research code and reproduction instructions for driver-aware operational stress modelling and persistence-anchored battery-capacity forecasting, with a dual-stream patch Transformer, named concepts, spline KAN and matched MLP controls. Dataset-specific targets and incomplete validation are documented."
+keywords:
+  - electric vehicles
+  - battery capacity
+  - driver behaviour
+  - concept bottleneck
+  - Kolmogorov-Arnold network
+  - reproducibility

@@ -1,0 +1,5 @@
+Forecast_Distance,Strict_Persistence_MAE_Ah,DB_PatchKAN_MAE_Ah
+≤ 500 km,0.2932,0.3034
+500–1000 km,0.3825,0.3818
+1000–2000 km,0.471,0.4638
+> 2000 km,0.699,0.6685

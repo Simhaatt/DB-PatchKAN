@@ -1,0 +1,156 @@
+{
+  "source_archive": "DBPatchKAN_stage15_ENERGY_AI_REVIEW_ALL_MODELS_RESULTS.zip",
+  "results_recomputed": false,
+  "files": {
+    "E1_rank_distribution_robustness.csv": {
+      "archive_member": "results/E1_rank_distribution_robustness.csv",
+      "original_sha256": "49ed3d282994347bd59a2f2132762ac4b0b969d591dc36a30824bf8aec56befe",
+      "public_sha256": "49ed3d282994347bd59a2f2132762ac4b0b969d591dc36a30824bf8aec56befe",
+      "bytes": 17070
+    },
+    "E1_downstream_eligibility.csv": {
+      "archive_member": "results/E1_downstream_eligibility.csv",
+      "original_sha256": "499c2db8f3cc9917937df131463d6039737234d1402c2bf4f1038107bf3eb7d5",
+      "public_sha256": "499c2db8f3cc9917937df131463d6039737234d1402c2bf4f1038107bf3eb7d5",
+      "bytes": 894
+    },
+    "E1_training_only_nonnegative_weights.csv": {
+      "archive_member": "results/E1_training_only_nonnegative_weights.csv",
+      "original_sha256": "9006ec4c3c62f588cacb5ce4dee1a4f9152db5819b04be52988814034356f8ac",
+      "public_sha256": "9006ec4c3c62f588cacb5ce4dee1a4f9152db5819b04be52988814034356f8ac",
+      "bytes": 275
+    },
+    "E1_downstream_metrics.csv": {
+      "archive_member": "results/E1_downstream_metrics.csv",
+      "original_sha256": "22c9898c557b52df7d913c6236feefba7bea2044842418c340c6167ac4f47f9e",
+      "public_sha256": "22c9898c557b52df7d913c6236feefba7bea2044842418c340c6167ac4f47f9e",
+      "bytes": 2446
+    },
+    "E1_downstream_checkpoint_comparisons.csv": {
+      "archive_member": "results/E1_downstream_checkpoint_comparisons.csv",
+      "original_sha256": "e1ac87ca826d0f11c457e03214e6b77edec05e902edd89da8742ebf908392f39",
+      "public_sha256": "e1ac87ca826d0f11c457e03214e6b77edec05e902edd89da8742ebf908392f39",
+      "bytes": 10623
+    },
+    "E1_SCOPE.json": {
+      "archive_member": "results/E1_SCOPE.json",
+      "original_sha256": "59d6921d91d8f98eb11ae36320859ee2a6f7f44e19428a162ba0277d1e57517d",
+      "public_sha256": "59d6921d91d8f98eb11ae36320859ee2a6f7f44e19428a162ba0277d1e57517d",
+      "bytes": 397
+    },
+    "E2_subgroup_metrics.csv": {
+      "archive_member": "results/E2_subgroup_metrics.csv",
+      "original_sha256": "aa0ec18aff2a0e2384361cdd43a20d135b0fe84e62274ce56c0e63a7bef4541e",
+      "public_sha256": "aa0ec18aff2a0e2384361cdd43a20d135b0fe84e62274ce56c0e63a7bef4541e",
+      "bytes": 28260
+    },
+    "E2_cluster_comparisons.csv": {
+      "archive_member": "results/E2_cluster_comparisons.csv",
+      "original_sha256": "8fc0649edb666696e9155cf1f63842ddb279dc1a192ca853b3b09a84cb9f1c1d",
+      "public_sha256": "8fc0649edb666696e9155cf1f63842ddb279dc1a192ca853b3b09a84cb9f1c1d",
+      "bytes": 60525
+    },
+    "E2_SCOPE.json": {
+      "archive_member": "results/E2_SCOPE.json",
+      "original_sha256": "ad0fb1ab2f5171ce28fda81cb5b542e199d1685698859a4d4d9931dfe3840ea3",
+      "public_sha256": "ad0fb1ab2f5171ce28fda81cb5b542e199d1685698859a4d4d9931dfe3840ea3",
+      "bytes": 513
+    },
+    "E3_nissan_independent_counts.csv": {
+      "archive_member": "results/E3_nissan_independent_counts.csv",
+      "original_sha256": "37c4cee2f9d24b16bb7283cb97cd7af3c4f16dbca70186ea5357217cbe3ca4b5",
+      "public_sha256": "37c4cee2f9d24b16bb7283cb97cd7af3c4f16dbca70186ea5357217cbe3ca4b5",
+      "bytes": 214
+    },
+    "E3_nissan_label_summary.json": {
+      "archive_member": "results/E3_nissan_label_summary.json",
+      "original_sha256": "dd3d8b2c4655a0585ce64402ad1affbd1eb14d1a43eeb6ee05792b7745036d4a",
+      "public_sha256": "dd3d8b2c4655a0585ce64402ad1affbd1eb14d1a43eeb6ee05792b7745036d4a",
+      "bytes": 432
+    },
+    "E3_assumed_label_noise_sensitivity.csv": {
+      "archive_member": "results/E3_assumed_label_noise_sensitivity.csv",
+      "original_sha256": "6049fcfe11c56c649044509ced5318f2b73f5a8b2085ef843724ce8dbc2aec0b",
+      "public_sha256": "6049fcfe11c56c649044509ced5318f2b73f5a8b2085ef843724ce8dbc2aec0b",
+      "bytes": 631
+    },
+    "E3_auxiliary_driver_audit.json": {
+      "archive_member": "results/E3_auxiliary_driver_audit.json",
+      "original_sha256": "21fb100692652533088b08bfdf67df26d289a28f80bfe0472506113f740bfd15",
+      "public_sha256": "21fb100692652533088b08bfdf67df26d289a28f80bfe0472506113f740bfd15",
+      "bytes": 369
+    },
+    "E3_SCOPE.json": {
+      "archive_member": "results/E3_SCOPE.json",
+      "original_sha256": "7d9a7d76d486c9f1adbbaef9bd83935499ba5dafd46e30c35a40972195d0f28a",
+      "public_sha256": "7d9a7d76d486c9f1adbbaef9bd83935499ba5dafd46e30c35a40972195d0f28a",
+      "bytes": 376
+    },
+    "E4_matched_future_response_metrics.csv": {
+      "archive_member": "results/E4_matched_future_response_metrics.csv",
+      "original_sha256": "3913af5b8d7c2ad7f107eab86dc607a0c30377d4bcbdf5553643542b110186b2",
+      "public_sha256": "3913af5b8d7c2ad7f107eab86dc607a0c30377d4bcbdf5553643542b110186b2",
+      "bytes": 28655
+    },
+    "E4_matched_response_cluster_comparisons.csv": {
+      "archive_member": "results/E4_matched_response_cluster_comparisons.csv",
+      "original_sha256": "7b2e55e0da069c0f144587cc2e6bdad78b1a0b1e08ca4be8294c5ebbf940aa04",
+      "public_sha256": "7b2e55e0da069c0f144587cc2e6bdad78b1a0b1e08ca4be8294c5ebbf940aa04",
+      "bytes": 29779
+    },
+    "E4_SCOPE.json": {
+      "archive_member": "results/E4_SCOPE.json",
+      "original_sha256": "ded190ae98688955666150e9dd28395e1aa812255610c3a133c6e27fecd36e22",
+      "public_sha256": "ded190ae98688955666150e9dd28395e1aa812255610c3a133c6e27fecd36e22",
+      "bytes": 1302
+    },
+    "E5_inner_selected_thresholds.csv": {
+      "archive_member": "results/E5_inner_selected_thresholds.csv",
+      "original_sha256": "f32be01d08cd69de5c2d80b5e8a46a89cbed01a6e98bee4d4be3be8ff1695197",
+      "public_sha256": "f32be01d08cd69de5c2d80b5e8a46a89cbed01a6e98bee4d4be3be8ff1695197",
+      "bytes": 2806
+    },
+    "E5_AI_utilization_by_subgroup.csv": {
+      "archive_member": "results/E5_AI_utilization_by_subgroup.csv",
+      "original_sha256": "c682ae2ce4bf6feff1b1dcf019b8a526279f497f17ab9330dd6507368e60b064",
+      "public_sha256": "c682ae2ce4bf6feff1b1dcf019b8a526279f497f17ab9330dd6507368e60b064",
+      "bytes": 349
+    },
+    "E5_comparison_metrics.csv": {
+      "archive_member": "results/E5_comparison_metrics.csv",
+      "original_sha256": "4f5e12171093b2b633be940b18b43774f2a25516cb290c075e57d2b4a01945d6",
+      "public_sha256": "4f5e12171093b2b633be940b18b43774f2a25516cb290c075e57d2b4a01945d6",
+      "bytes": 1387
+    },
+    "E5_cluster_comparisons.csv": {
+      "archive_member": "results/E5_cluster_comparisons.csv",
+      "original_sha256": "f4dbd7d468c7f2323cd7fd0a2fcc7ae7d09a6888a3cf09101dc7526ba82d6c08",
+      "public_sha256": "f4dbd7d468c7f2323cd7fd0a2fcc7ae7d09a6888a3cf09101dc7526ba82d6c08",
+      "bytes": 1788
+    },
+    "E5_SCOPE.json": {
+      "archive_member": "results/E5_SCOPE.json",
+      "original_sha256": "296b479c50605a9b2f6e4ea8f19dccb5f47983d2391d414a00d1fa5ded6d0983",
+      "public_sha256": "296b479c50605a9b2f6e4ea8f19dccb5f47983d2391d414a00d1fa5ded6d0983",
+      "bytes": 339
+    },
+    "E6_remote_CPU_latency.csv": {
+      "archive_member": "results/E6_remote_CPU_latency.csv",
+      "original_sha256": "98ce99ec452e0e40216e76cf1ca88bf637f9a87d5f91cd32ea6f3ec43375e0db",
+      "public_sha256": "98ce99ec452e0e40216e76cf1ca88bf637f9a87d5f91cd32ea6f3ec43375e0db",
+      "bytes": 1928
+    },
+    "E6_concept_perturbation_seed_stability.csv": {
+      "archive_member": "results/E6_concept_perturbation_seed_stability.csv",
+      "original_sha256": "b9554c7e206f61584ea911a528b44e861df01ab4da6023bad39ea93b11fcc9ea",
+      "public_sha256": "b9554c7e206f61584ea911a528b44e861df01ab4da6023bad39ea93b11fcc9ea",
+      "bytes": 3134
+    },
+    "E6_SCOPE.json": {
+      "archive_member": "results/E6_SCOPE.json",
+      "original_sha256": "d460757bb319e6a8ef08828196aada07c482df45b15c4195a057b1ab43412017",
+      "public_sha256": "d460757bb319e6a8ef08828196aada07c482df45b15c4195a057b1ab43412017",
+      "bytes": 592
+    }
+  }
+}

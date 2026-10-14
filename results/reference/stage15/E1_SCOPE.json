@@ -1,0 +1,9 @@
+{
+  "development_trips": 101,
+  "heldout_training_used": false,
+  "future_targets_restricted_to_development": true,
+  "variant_weights_are_engineering_sensitivity": true,
+  "learned_weights": "NNLS of outer-training residual after age/mileage/lagged-SOH Ridge; not causal shares of degradation",
+  "charging_history_available": false,
+  "calendar_age_is_days_since_logging_not_manufacture": true
+}

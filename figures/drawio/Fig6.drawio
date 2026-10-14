@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="Fig6" name="Figure 6">
+    <mxGraphModel dx="900" dy="600" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="740" pageHeight="236" math="1" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fig6-b1" value="&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Latest SOH&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;anchor&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{H_k}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F2F4;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="18" y="14" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b2" value="&lt;span style=&quot;font-size:14px&quot;&gt;&lt;b&gt;−&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=14;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="33" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b3" value="&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Predicted&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;non-negative loss&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{\hat{L}_h \geq 0}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F2F4;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="218" y="14" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b4" value="&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Future SOH&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{\hat{H}_{k+h} = H_k - \hat{L}_h}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E0F0EC;strokeColor=#1B1E22;strokeWidth=2;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="63" y="112" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-e5" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.5;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig6-b1" target="fig6-b2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-e6" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.5;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig6-b2" target="fig6-b3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-e7" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.7;startArrow=none;endArrow=block;endFill=1;endSize=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig6-b2" target="fig6-b4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b8" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;Persistence: \(\boldsymbol{\hat{H}_{k+h} = H_k}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1B1E22;strokeWidth=1.1;dashed=1;dashPattern=4 3;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="88" y="172" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-t9" value="&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;(a) BMS-SOH loss forecast (Nissan)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="18" y="208" width="340" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b10" value="&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Latest&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;capacity&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{Q_k}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F2F4;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="382" y="14" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b11" value="&lt;span style=&quot;font-size:14px&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=14;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="539" y="33" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b12" value="&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Signed learned&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;correction&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{\widehat{\Delta Q}}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F2F4;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="582" y="14" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b13" value="&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;Next capacity&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{\hat{Q}_{k+1} = Q_k + \widehat{\Delta Q}}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E0F0EC;strokeColor=#1B1E22;strokeWidth=2;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="427" y="112" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-e14" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.5;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig6-b10" target="fig6-b11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-e15" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.5;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig6-b11" target="fig6-b12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-e16" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.7;startArrow=none;endArrow=block;endFill=1;endSize=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig6-b11" target="fig6-b13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-b17" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;Persistence: \(\boldsymbol{\hat{Q}_{k+1} = Q_k}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1B1E22;strokeWidth=1.1;dashed=1;dashPattern=4 3;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="452" y="172" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="fig6-t18" value="&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;(b) Next capacity forecast (EVBattery)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="382" y="208" width="340" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

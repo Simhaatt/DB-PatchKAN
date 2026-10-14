@@ -1,0 +1,7 @@
+target,fold,component,coefficient_pp_per_unit,normalized_weight
+loss_500km,4,bsi_rate,0.0,0.0
+loss_500km,4,bsi_thermal,0.0,0.0
+loss_500km,4,bsi_soc,0.31688958057264577,1.0
+loss_500km,4,bsi_cycle,0.0,0.0
+loss_500km,4,bsi_transient,0.0,0.0
+loss_500km,4,bsi_interaction,0.0,0.0

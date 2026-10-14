@@ -1,0 +1,2 @@
+# Preserve the exact published bytes so content checksums survive every checkout.
+* -text

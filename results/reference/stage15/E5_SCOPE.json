@@ -1,0 +1,13 @@
+{
+  "threshold_training": "original per-seed inner validation vehicles in each outer fold",
+  "threshold_choices_km": [
+    0,
+    500,
+    1000,
+    2000,
+    "infinity"
+  ],
+  "outer_labels_used_for_threshold": false,
+  "new_confirmatory_dataset": false,
+  "evidence": "post-hoc operational experiment on already studied outer cohorts"
+}

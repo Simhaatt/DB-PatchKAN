@@ -1,0 +1,108 @@
+{
+  "zenodo_software_doi": null,
+  "zenodo_artifact_doi": null,
+  "full_artifact_publication_complete": false,
+  "archives_not_in_git": [
+    {
+      "filename": "DBPatchKAN_stage15_ENERGY_AI_REVIEW_ALL_MODELS_RESULTS.zip",
+      "bytes": 268050354,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage10_NORMALIZED_TRANSFER_ALL_MODELS_RESULTS.zip",
+      "bytes": 3460999,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage11_PACKSE_RESIDUAL_MIL_ALL_MODELS_RESULTS.zip",
+      "bytes": 12863887,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage12_EVBATTERY_EXTERNAL_ALL_MODELS_RESULTS.zip",
+      "bytes": 35719149,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage12_POSTHOC_AUDIT.zip",
+      "bytes": 1227224,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage13_PERSISTENCE_ANCHORED_FORECAST_ALL_MODELS_RESULTS.zip",
+      "bytes": 25811319,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage13b_RECENT_2024_2025_METHODS_ALL_RESULTS.zip",
+      "bytes": 32203807,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage13c_TIMEPRO_2025_POSTHOC_ALL_RESULTS.zip",
+      "bytes": 35917218,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage14_HYPERPARAMETER_ROBUSTNESS_ALL_MODELS_RESULTS.zip",
+      "bytes": 142924305,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage1_reduced_seed42_ALL_MODELS_RESULTS.zip",
+      "bytes": 79553323,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage1b2_full_selection_ALL_MODELS_RESULTS.zip",
+      "bytes": 202254606,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage3_kan_explainability_ALL_RESULTS.zip",
+      "bytes": 60494344,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage4n_Nissan_Physics_Hybrid_ALL_MODELS_RESULTS.zip",
+      "bytes": 60824334,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage4nb_Nissan_Physics_Corrected_ALL_RESULTS.zip",
+      "bytes": 21566019,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage5_RWTH_EVE_EXTERNAL_ALL_RESULTS.zip",
+      "bytes": 11436414,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage5_POSTHOC_LOGROBUST_KAN_SENSITIVITY.zip",
+      "bytes": 4129,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage6_UNIFIED_BASELINES_ABLATIONS_ALL_RESULTS.zip",
+      "bytes": 453251736,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage6_POSTHOC_PERSISTENCE_ANCHORED.zip",
+      "bytes": 20394,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage7_EXTERNAL_FULL_SEQUENCE_ALL_MODELS_RESULTS.zip",
+      "bytes": 15836896,
+      "public_deposit_status": "not deposited by this assembly"
+    },
+    {
+      "filename": "DBPatchKAN_stage8_FINAL_CONFIRMATION_ALL_MODELS_RESULTS.zip",
+      "bytes": 74037007,
+      "public_deposit_status": "not deposited by this assembly"
+    }
+  ],
+  "checksums_note": "Full archive checksums and permission review required at artifact deposition; none fabricated here."
+}

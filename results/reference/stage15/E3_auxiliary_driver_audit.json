@@ -1,0 +1,13 @@
+{
+  "exported_driver_target": true,
+  "valid_driver_targets": 5270,
+  "distinct_valid_codes": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "nonzero_logged_driver_loss_entries": 982,
+  "nonzero_logged_physics_loss_entries": 0,
+  "interpretation": "target availability and nonzero logged loss together establish activity; absence of a log is unresolved, not proof of inactivity"
+}

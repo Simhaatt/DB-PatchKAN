@@ -1,0 +1,991 @@
+{
+  "research_sources_modified": false,
+  "copies": [
+    {
+      "source_relative_path": "src/dbpatchkan/__init__.py",
+      "public_relative_path": "src/dbpatchkan/__init__.py",
+      "source_sha256": "55dafb7416634ca051f682d42f59620436fffba8c7345bc30bee30d64c359898",
+      "public_sha256": "55dafb7416634ca051f682d42f59620436fffba8c7345bc30bee30d64c359898",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/__init__.py",
+      "public_relative_path": "src/dbpatchkan/analysis/__init__.py",
+      "source_sha256": "053cd88dc5028d76cf12edb5e30d95f614086c4bc7331ef977a19c9fe409fbd8",
+      "public_sha256": "053cd88dc5028d76cf12edb5e30d95f614086c4bc7331ef977a19c9fe409fbd8",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/baselines.py",
+      "public_relative_path": "src/dbpatchkan/analysis/baselines.py",
+      "source_sha256": "2d6ee1b282295747cc913a2bd3bc933f61df309324879fa629a99a2300a8eeac",
+      "public_sha256": "2d6ee1b282295747cc913a2bd3bc933f61df309324879fa629a99a2300a8eeac",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/clustering.py",
+      "public_relative_path": "src/dbpatchkan/analysis/clustering.py",
+      "source_sha256": "dcf8274e735a19883d579178b2a61768b0b1f49bd7b09f7b631a1cb2ebff77f8",
+      "public_sha256": "dcf8274e735a19883d579178b2a61768b0b1f49bd7b09f7b631a1cb2ebff77f8",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/deep_explainability.py",
+      "public_relative_path": "src/dbpatchkan/analysis/deep_explainability.py",
+      "source_sha256": "b4e4ea2da825d7b81b97d5b94b7296a9b1d7d90bd898a33a4ffb26c37c13ff33",
+      "public_sha256": "b4e4ea2da825d7b81b97d5b94b7296a9b1d7d90bd898a33a4ffb26c37c13ff33",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/eve_external.py",
+      "public_relative_path": "src/dbpatchkan/analysis/eve_external.py",
+      "source_sha256": "6a01a2c8f6350bc0ae9db8652b1b85e9e8bcd365d983949d6f0b3e5739713ddc",
+      "public_sha256": "6a01a2c8f6350bc0ae9db8652b1b85e9e8bcd365d983949d6f0b3e5739713ddc",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/explainability.py",
+      "public_relative_path": "src/dbpatchkan/analysis/explainability.py",
+      "source_sha256": "ae5edb92bb2e32ae431c7daa488645fa84ab9fa800e8460901ae6a1e51e038b1",
+      "public_sha256": "ae5edb92bb2e32ae431c7daa488645fa84ab9fa800e8460901ae6a1e51e038b1",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/external_combined.py",
+      "public_relative_path": "src/dbpatchkan/analysis/external_combined.py",
+      "source_sha256": "f9a7134c6a51cd030c6be1a2a351413a85b78e5bb7a2610abdf31ea065209369",
+      "public_sha256": "f9a7134c6a51cd030c6be1a2a351413a85b78e5bb7a2610abdf31ea065209369",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/feature_selection.py",
+      "public_relative_path": "src/dbpatchkan/analysis/feature_selection.py",
+      "source_sha256": "0a106eeb60ec41ebb1e79a27613f8ff5a0957e6acfbff5de70a1eb60b0723eb3",
+      "public_sha256": "0a106eeb60ec41ebb1e79a27613f8ff5a0957e6acfbff5de70a1eb60b0723eb3",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/nissan_corrected.py",
+      "public_relative_path": "src/dbpatchkan/analysis/nissan_corrected.py",
+      "source_sha256": "04132ec81b98e65769efc4c38442bb1a3534712b9d1bcdacf25e3e8b87cf7aeb",
+      "public_sha256": "04132ec81b98e65769efc4c38442bb1a3534712b9d1bcdacf25e3e8b87cf7aeb",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/nissan_hybrid.py",
+      "public_relative_path": "src/dbpatchkan/analysis/nissan_hybrid.py",
+      "source_sha256": "58e4eec6e133dc4894f9e8f02b6c5c5e827b09275c5f557007a38069bf9e2a64",
+      "public_sha256": "58e4eec6e133dc4894f9e8f02b6c5c5e827b09275c5f557007a38069bf9e2a64",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/protocol.py",
+      "public_relative_path": "src/dbpatchkan/analysis/protocol.py",
+      "source_sha256": "333e9c6ec9f60b9c08e0af46152636f3018a0a5ffe830283c90feecccb2553aa",
+      "public_sha256": "333e9c6ec9f60b9c08e0af46152636f3018a0a5ffe830283c90feecccb2553aa",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/rwth_external.py",
+      "public_relative_path": "src/dbpatchkan/analysis/rwth_external.py",
+      "source_sha256": "50f12168d20e525fc46adba4dea191a929d6855f49030ea2fa2cf9dbdb4c4973",
+      "public_sha256": "50f12168d20e525fc46adba4dea191a929d6855f49030ea2fa2cf9dbdb4c4973",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage10_normalized_transfer.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage10_normalized_transfer.py",
+      "source_sha256": "ea280bb3caec32a8f45624d3bedfc64876fe214c9a269dee1003430634b7b703",
+      "public_sha256": "ea280bb3caec32a8f45624d3bedfc64876fe214c9a269dee1003430634b7b703",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage11_packse_mil.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage11_packse_mil.py",
+      "source_sha256": "3363f2ad71e25657fb603bcc42be5d34457d49dbb80fa7dc5e5950f54b4771f1",
+      "public_sha256": "3363f2ad71e25657fb603bcc42be5d34457d49dbb80fa7dc5e5950f54b4771f1",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage12_evbattery.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage12_evbattery.py",
+      "source_sha256": "816a859c246667b9b6c116e1390a9fd8cd45e34ed7dde07ba14522b9d7c19e69",
+      "public_sha256": "816a859c246667b9b6c116e1390a9fd8cd45e34ed7dde07ba14522b9d7c19e69",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage13_persistence_forecast.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage13_persistence_forecast.py",
+      "source_sha256": "2250845ad0b0adc43fe02ffc6c46179f5484eff1095a0927ca373704725244c6",
+      "public_sha256": "2250845ad0b0adc43fe02ffc6c46179f5484eff1095a0927ca373704725244c6",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage13b_recent_methods.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage13b_recent_methods.py",
+      "source_sha256": "e99c69c28d80d09fd54ef303b1d41a6cc6adb89bcd6ab28fbd3cc751aceed820",
+      "public_sha256": "e99c69c28d80d09fd54ef303b1d41a6cc6adb89bcd6ab28fbd3cc751aceed820",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage13c_timepro.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage13c_timepro.py",
+      "source_sha256": "368afdfde4ae2763dfb596f68859b53f48e2febe384382a25c61489c990f7e2b",
+      "public_sha256": "368afdfde4ae2763dfb596f68859b53f48e2febe384382a25c61489c990f7e2b",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage14_sensitivity.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage14_sensitivity.py",
+      "source_sha256": "2d4d7f9a664ecd230314affa06583ecdf16365da878357e934bad839e825134c",
+      "public_sha256": "2d4d7f9a664ecd230314affa06583ecdf16365da878357e934bad839e825134c",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage15_response.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage15_response.py",
+      "source_sha256": "9046372804880d7b1239b072b95d144f1c22c005cc27f1e392f0f2ef6b014551",
+      "public_sha256": "9046372804880d7b1239b072b95d144f1c22c005cc27f1e392f0f2ef6b014551",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage15_review.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage15_review.py",
+      "source_sha256": "e774a31c7e51bba3028e46fb73fe4b9444343446f94dd099891d5c5e2184912e",
+      "public_sha256": "e774a31c7e51bba3028e46fb73fe4b9444343446f94dd099891d5c5e2184912e",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage6.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage6.py",
+      "source_sha256": "224605e335158b8a28be02f1d69edcb9b411a91bf262e15c6b1350d467f4f9a6",
+      "public_sha256": "224605e335158b8a28be02f1d69edcb9b411a91bf262e15c6b1350d467f4f9a6",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage7_external_sequence.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage7_external_sequence.py",
+      "source_sha256": "82d381f2ab2cfeab0e659eb7e8a0fa7a05db102c994aa9b46b4fa185e2748bc3",
+      "public_sha256": "82d381f2ab2cfeab0e659eb7e8a0fa7a05db102c994aa9b46b4fa185e2748bc3",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage8_final.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage8_final.py",
+      "source_sha256": "f0ad6d5bbb33ab49192ce7bcad23d0337acd0c010f23e8a6bf655f55b3ec2680",
+      "public_sha256": "f0ad6d5bbb33ab49192ce7bcad23d0337acd0c010f23e8a6bf655f55b3ec2680",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/stage9_cpu.py",
+      "public_relative_path": "src/dbpatchkan/analysis/stage9_cpu.py",
+      "source_sha256": "cce50aa5372c0409c584194179153f873b770650e8acaf2dc1d09ca1afc9a8e3",
+      "public_sha256": "cce50aa5372c0409c584194179153f873b770650e8acaf2dc1d09ca1afc9a8e3",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/analysis/validation.py",
+      "public_relative_path": "src/dbpatchkan/analysis/validation.py",
+      "source_sha256": "75955bbfb89feb3843455b5a354da81f8a9740ca72d10b27157ca95bc738e79a",
+      "public_sha256": "75955bbfb89feb3843455b5a354da81f8a9740ca72d10b27157ca95bc738e79a",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/cli.py",
+      "public_relative_path": "src/dbpatchkan/cli.py",
+      "source_sha256": "c75e966e1ca5faeea2f94463fb10f7cf61af14957579b61a7b8cc84f746f36f9",
+      "public_sha256": "c75e966e1ca5faeea2f94463fb10f7cf61af14957579b61a7b8cc84f746f36f9",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/config.py",
+      "public_relative_path": "src/dbpatchkan/config.py",
+      "source_sha256": "c7e497c0badcbad263c2b2cb3550444652981825531ce9ca1f408fb98c7aa0cb",
+      "public_sha256": "c7e497c0badcbad263c2b2cb3550444652981825531ce9ca1f408fb98c7aa0cb",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/__init__.py",
+      "public_relative_path": "src/dbpatchkan/data/__init__.py",
+      "source_sha256": "c5bc3f8949e5138354707196afda63b8a8cccdf24b1278afe9fc9df981844593",
+      "public_sha256": "c5bc3f8949e5138354707196afda63b8a8cccdf24b1278afe9fc9df981844593",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/adapters.py",
+      "public_relative_path": "src/dbpatchkan/data/adapters.py",
+      "source_sha256": "8c6b5a12e671defd9ed8de3306a0fc74278c55c88828ac3bfa11bc4407af36e5",
+      "public_sha256": "8c6b5a12e671defd9ed8de3306a0fc74278c55c88828ac3bfa11bc4407af36e5",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/dbsi.py",
+      "public_relative_path": "src/dbpatchkan/data/dbsi.py",
+      "source_sha256": "df0caf069a5b10b4d1248c5b03ada1fa5f67f2f9a356e09f29f5aa4655cc2e9e",
+      "public_sha256": "df0caf069a5b10b4d1248c5b03ada1fa5f67f2f9a356e09f29f5aa4655cc2e9e",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/evbattery.py",
+      "public_relative_path": "src/dbpatchkan/data/evbattery.py",
+      "source_sha256": "6b7506dd87e0d9cd89b0b1bf013e24619c7d04adcb30d7eada69393737408a1c",
+      "public_sha256": "6b7506dd87e0d9cd89b0b1bf013e24619c7d04adcb30d7eada69393737408a1c",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/eve.py",
+      "public_relative_path": "src/dbpatchkan/data/eve.py",
+      "source_sha256": "9884846829b0cfd158e4c7956e2f635b54b74b60abe422b3df53a007e8f53da8",
+      "public_sha256": "9884846829b0cfd158e4c7956e2f635b54b74b60abe422b3df53a007e8f53da8",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/external_sequences.py",
+      "public_relative_path": "src/dbpatchkan/data/external_sequences.py",
+      "source_sha256": "c737410cbad602ef3e621a6b289a5d82ab42de08e450fdf3d84d0d42ec3fceab",
+      "public_sha256": "c737410cbad602ef3e621a6b289a5d82ab42de08e450fdf3d84d0d42ec3fceab",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/features.py",
+      "public_relative_path": "src/dbpatchkan/data/features.py",
+      "source_sha256": "439319076fe79268ef5456377c9c496675085141add01fd8278e513fb078517d",
+      "public_sha256": "439319076fe79268ef5456377c9c496675085141add01fd8278e513fb078517d",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/nissan_physics.py",
+      "public_relative_path": "src/dbpatchkan/data/nissan_physics.py",
+      "source_sha256": "14e6d2ff190248a726476aa8c02fd2be348bd068934347a186856274a3eb3afa",
+      "public_sha256": "14e6d2ff190248a726476aa8c02fd2be348bd068934347a186856274a3eb3afa",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/preprocessing.py",
+      "public_relative_path": "src/dbpatchkan/data/preprocessing.py",
+      "source_sha256": "a54bfff76c5caaeb4a1d1c472ef2238569980ed7545c09f4f78beaf9124a1e7e",
+      "public_sha256": "a54bfff76c5caaeb4a1d1c472ef2238569980ed7545c09f4f78beaf9124a1e7e",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/rwth.py",
+      "public_relative_path": "src/dbpatchkan/data/rwth.py",
+      "source_sha256": "39a9ff0be2773a3035fedb3f0fda32f2e4edd49897f35f1dd38b3e6bc0c1c45b",
+      "public_sha256": "39a9ff0be2773a3035fedb3f0fda32f2e4edd49897f35f1dd38b3e6bc0c1c45b",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/data/tensors.py",
+      "public_relative_path": "src/dbpatchkan/data/tensors.py",
+      "source_sha256": "d2e21bb01957611bc7768d9ed493ec8f3db515a6c7fc94d1e9b98734fba79a2e",
+      "public_sha256": "d2e21bb01957611bc7768d9ed493ec8f3db515a6c7fc94d1e9b98734fba79a2e",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/__init__.py",
+      "public_relative_path": "src/dbpatchkan/models/__init__.py",
+      "source_sha256": "3fdbe4b5bd64328854529bf4479bce57c120cd00f5b92fc0aac2f78bd2832643",
+      "public_sha256": "3fdbe4b5bd64328854529bf4479bce57c120cd00f5b92fc0aac2f78bd2832643",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/datasets.py",
+      "public_relative_path": "src/dbpatchkan/models/datasets.py",
+      "source_sha256": "99cc61f1c407cbeec887e572c25dc920513e097d3d749e509ac3b61286347659",
+      "public_sha256": "99cc61f1c407cbeec887e572c25dc920513e097d3d749e509ac3b61286347659",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/kan.py",
+      "public_relative_path": "src/dbpatchkan/models/kan.py",
+      "source_sha256": "20d0fc3d86e41967c8fe45afde45896549fef73edb5c3a2674a92a36cdeebf0c",
+      "public_sha256": "20d0fc3d86e41967c8fe45afde45896549fef73edb5c3a2674a92a36cdeebf0c",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/losses.py",
+      "public_relative_path": "src/dbpatchkan/models/losses.py",
+      "source_sha256": "38edd3b68b4dfddd723f0127153169b40510e5a6f4a0d48be39e602edc14f001",
+      "public_sha256": "38edd3b68b4dfddd723f0127153169b40510e5a6f4a0d48be39e602edc14f001",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/patchkan.py",
+      "public_relative_path": "src/dbpatchkan/models/patchkan.py",
+      "source_sha256": "9c41b100c40a1ad30975fe3caa42e11101794ce64ec4e33c2ccc1ee5283b4ec5",
+      "public_sha256": "9c41b100c40a1ad30975fe3caa42e11101794ce64ec4e33c2ccc1ee5283b4ec5",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/physics_corrected.py",
+      "public_relative_path": "src/dbpatchkan/models/physics_corrected.py",
+      "source_sha256": "edb69a804cf26b06139a823fd8ed7f8983db8da618504bb10cef5a86bca96c8e",
+      "public_sha256": "edb69a804cf26b06139a823fd8ed7f8983db8da618504bb10cef5a86bca96c8e",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/physics_kan.py",
+      "public_relative_path": "src/dbpatchkan/models/physics_kan.py",
+      "source_sha256": "5c4db33a9538bca6513ca31be25e702bdc11b0bfd0e138368b0d67bef4877169",
+      "public_sha256": "5c4db33a9538bca6513ca31be25e702bdc11b0bfd0e138368b0d67bef4877169",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/models/physics_patchkan.py",
+      "public_relative_path": "src/dbpatchkan/models/physics_patchkan.py",
+      "source_sha256": "f633edbc58bb04b4f542ce64ce143659a811915845d3b4e1185661b8d354f754",
+      "public_sha256": "f633edbc58bb04b4f542ce64ce143659a811915845d3b4e1185661b8d354f754",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/training/__init__.py",
+      "public_relative_path": "src/dbpatchkan/training/__init__.py",
+      "source_sha256": "adb77a63bed10fb4d8fd7647f4ccf3ac24549471bfa2d436930f76ca22d80a68",
+      "public_sha256": "adb77a63bed10fb4d8fd7647f4ccf3ac24549471bfa2d436930f76ca22d80a68",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/training/evaluate.py",
+      "public_relative_path": "src/dbpatchkan/training/evaluate.py",
+      "source_sha256": "cccfbb6dbf80844f702398b7b00847325d0d5cfbef7686443fb92ea89b71d869",
+      "public_sha256": "cccfbb6dbf80844f702398b7b00847325d0d5cfbef7686443fb92ea89b71d869",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/training/physics_corrected.py",
+      "public_relative_path": "src/dbpatchkan/training/physics_corrected.py",
+      "source_sha256": "19c5c88e5f91ef22cd40cebede2aaa330e5a9565df4b55959da243f590cbc502",
+      "public_sha256": "19c5c88e5f91ef22cd40cebede2aaa330e5a9565df4b55959da243f590cbc502",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/training/physics_hybrid.py",
+      "public_relative_path": "src/dbpatchkan/training/physics_hybrid.py",
+      "source_sha256": "4c09b3a4669aa9376eab707c4f245abec1bef5a191ed707f1895440590c262cf",
+      "public_sha256": "4c09b3a4669aa9376eab707c4f245abec1bef5a191ed707f1895440590c262cf",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/training/train.py",
+      "public_relative_path": "src/dbpatchkan/training/train.py",
+      "source_sha256": "63b6ec26e697ccb6fc82ea0c11e080b8adccf81acb1f93fba085e9060243dc36",
+      "public_sha256": "63b6ec26e697ccb6fc82ea0c11e080b8adccf81acb1f93fba085e9060243dc36",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "src/dbpatchkan/training/tune.py",
+      "public_relative_path": "src/dbpatchkan/training/tune.py",
+      "source_sha256": "486235c82d47b7d20ba4116f7567554198a27fbed9b81a32cb8dd91290b86a85",
+      "public_sha256": "486235c82d47b7d20ba4116f7567554198a27fbed9b81a32cb8dd91290b86a85",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/analyze_stage12_results.py",
+      "public_relative_path": "scripts/analyze_stage12_results.py",
+      "source_sha256": "d9f730efa6018a1322f4f8817bbe5e95595981c882e13c8fb6403a5cac42d625",
+      "public_sha256": "d9f730efa6018a1322f4f8817bbe5e95595981c882e13c8fb6403a5cac42d625",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/audit_feature_robustness.py",
+      "public_relative_path": "scripts/audit_feature_robustness.py",
+      "source_sha256": "e31b9f558e32544046c2793b15e56503d29ebe5c80f6b8682d7dbeeb12d698f8",
+      "public_sha256": "e31b9f558e32544046c2793b15e56503d29ebe5c80f6b8682d7dbeeb12d698f8",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_code_bundle.py",
+      "public_relative_path": "scripts/build_colab_code_bundle.py",
+      "source_sha256": "d3d3e2fd24a6407a872ef17c712a46968bcd5c5c59c1f589c522724246eb191d",
+      "public_sha256": "d3d3e2fd24a6407a872ef17c712a46968bcd5c5c59c1f589c522724246eb191d",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_nissan_corrected_notebook.py",
+      "public_relative_path": "scripts/build_colab_nissan_corrected_notebook.py",
+      "source_sha256": "77fa4a5a18439d9d6ca7ae72e62b1d58cfd3abc37e67252537b3fa0a997e9546",
+      "public_sha256": "77fa4a5a18439d9d6ca7ae72e62b1d58cfd3abc37e67252537b3fa0a997e9546",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_nissan_physics_hybrid_notebook.py",
+      "public_relative_path": "scripts/build_colab_nissan_physics_hybrid_notebook.py",
+      "source_sha256": "e461091ce4bd268d8d1fe63a726a94cdc12a8fdbeea3253bb7fab422b98d4f25",
+      "public_sha256": "e461091ce4bd268d8d1fe63a726a94cdc12a8fdbeea3253bb7fab422b98d4f25",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage10_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage10_notebook.py",
+      "source_sha256": "d9418d601044ee7bc141e6191c3b6fdb1b2823abb2d01e9cbf9356574670249c",
+      "public_sha256": "d9418d601044ee7bc141e6191c3b6fdb1b2823abb2d01e9cbf9356574670249c",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage11_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage11_notebook.py",
+      "source_sha256": "2b5cd0656b38b06cc4bac7c3820616537ab9560ca2aab55d6737b6a532211e4f",
+      "public_sha256": "2b5cd0656b38b06cc4bac7c3820616537ab9560ca2aab55d6737b6a532211e4f",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage12_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage12_notebook.py",
+      "source_sha256": "bf6fc7e0eb6cf9de80be954d013bfd092a5321c345e31d19f4c53beb509c43ff",
+      "public_sha256": "bf6fc7e0eb6cf9de80be954d013bfd092a5321c345e31d19f4c53beb509c43ff",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage13_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage13_notebook.py",
+      "source_sha256": "e9dd1f02d11af2161812cfa071423069f0c4ca99e27c89cb4cfdce5d38d2713a",
+      "public_sha256": "e9dd1f02d11af2161812cfa071423069f0c4ca99e27c89cb4cfdce5d38d2713a",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage13b_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage13b_notebook.py",
+      "source_sha256": "a85f8ffdf66b9f27f006a36a29bda1ed3fe0c046af63d96862af87ba168d2b9b",
+      "public_sha256": "a85f8ffdf66b9f27f006a36a29bda1ed3fe0c046af63d96862af87ba168d2b9b",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage13c_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage13c_notebook.py",
+      "source_sha256": "5c5691d63d248a4afdc22cb7dad914119aebbab2599541729f0dc62bad22ef4a",
+      "public_sha256": "5c5691d63d248a4afdc22cb7dad914119aebbab2599541729f0dc62bad22ef4a",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage14_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage14_notebook.py",
+      "source_sha256": "eb7b6cc4b0718dc404c4be2f3dcdda17ad0f08815ce649e685630cce413ad455",
+      "public_sha256": "eb7b6cc4b0718dc404c4be2f3dcdda17ad0f08815ce649e685630cce413ad455",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage15_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage15_notebook.py",
+      "source_sha256": "bfaa4e6dc6384842c5a5ffc5171c8ceaaee12169d1fa8f6b572efda3b9698f8a",
+      "public_sha256": "bfaa4e6dc6384842c5a5ffc5171c8ceaaee12169d1fa8f6b572efda3b9698f8a",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage1_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage1_notebook.py",
+      "source_sha256": "2373c91cab7ca7214e45619a26fbde10e505870ecc9777ac1deb97a1b708dc77",
+      "public_sha256": "2373c91cab7ca7214e45619a26fbde10e505870ecc9777ac1deb97a1b708dc77",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage1b2_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage1b2_notebook.py",
+      "source_sha256": "efc92b70b06eaa858a61a627f0282f0adf3eda1d98ba359f042942e8a5315880",
+      "public_sha256": "efc92b70b06eaa858a61a627f0282f0adf3eda1d98ba359f042942e8a5315880",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage3_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage3_notebook.py",
+      "source_sha256": "0c7eb288f0f9af03f1e4135e6fcfa1833fedb666ed0c9894ebf393512210b05b",
+      "public_sha256": "0c7eb288f0f9af03f1e4135e6fcfa1833fedb666ed0c9894ebf393512210b05b",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage6_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage6_notebook.py",
+      "source_sha256": "5ffe87aa62f70e831bb6dd276092c0a6bea63ec737ad8f34111de1fdaa0145c0",
+      "public_sha256": "5ffe87aa62f70e831bb6dd276092c0a6bea63ec737ad8f34111de1fdaa0145c0",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage7_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage7_notebook.py",
+      "source_sha256": "5675835dc7d57b8e1c6672145cbbf16b06bf2a043d3064e0265ef6a7b21e0566",
+      "public_sha256": "5675835dc7d57b8e1c6672145cbbf16b06bf2a043d3064e0265ef6a7b21e0566",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_colab_stage8_notebook.py",
+      "public_relative_path": "scripts/build_colab_stage8_notebook.py",
+      "source_sha256": "4a6c532687680f63f81cf9674224201df01fe1db49ad0eb2a8a44f900fc1c954",
+      "public_sha256": "4a6c532687680f63f81cf9674224201df01fe1db49ad0eb2a8a44f900fc1c954",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_eve_stage5.py",
+      "public_relative_path": "scripts/build_eve_stage5.py",
+      "source_sha256": "372ea1a9ba8627f38da5c89ad0c41684477014ab2fb3e5da10415c3a8ba6c2a9",
+      "public_sha256": "372ea1a9ba8627f38da5c89ad0c41684477014ab2fb3e5da10415c3a8ba6c2a9",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_nissan_corrected_package.py",
+      "public_relative_path": "scripts/build_nissan_corrected_package.py",
+      "source_sha256": "31da23e4b7dd1898bc4ca30e9458bb6e8018bfdc8c305ed33e1010048cb94c8b",
+      "public_sha256": "31da23e4b7dd1898bc4ca30e9458bb6e8018bfdc8c305ed33e1010048cb94c8b",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_nissan_physics_hybrid_package.py",
+      "public_relative_path": "scripts/build_nissan_physics_hybrid_package.py",
+      "source_sha256": "241d851f269a454cb697bdc566bd12592421dfce5da0a173b73617c77ae030bf",
+      "public_sha256": "241d851f269a454cb697bdc566bd12592421dfce5da0a173b73617c77ae030bf",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_nissan_physics_stage.py",
+      "public_relative_path": "scripts/build_nissan_physics_stage.py",
+      "source_sha256": "0adfd36a7660367a28341bcf9edaded9ca5abef44bb632f5b4507d58e07bce28",
+      "public_sha256": "0adfd36a7660367a28341bcf9edaded9ca5abef44bb632f5b4507d58e07bce28",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_rwth_stage4.py",
+      "public_relative_path": "scripts/build_rwth_stage4.py",
+      "source_sha256": "3c1b2c0a4dfba7bd353002d6186d9dc63b1fdadaa94234b933831fd5d88f7b02",
+      "public_sha256": "3c1b2c0a4dfba7bd353002d6186d9dc63b1fdadaa94234b933831fd5d88f7b02",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/build_workbook.py",
+      "public_relative_path": "scripts/build_workbook.py",
+      "source_sha256": "692bdd97cef27219ef36dcf61728217e6961746bacf70f4e503aac50a4b11c67",
+      "public_sha256": "692bdd97cef27219ef36dcf61728217e6961746bacf70f4e503aac50a4b11c67",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/create_stage5_notebook.py",
+      "public_relative_path": "scripts/create_stage5_notebook.py",
+      "source_sha256": "1de26073d02240031defe8e435a7ced0e01833744d96e9a06d12ed8532dfebe6",
+      "public_sha256": "1de26073d02240031defe8e435a7ced0e01833744d96e9a06d12ed8532dfebe6",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/enrich_feature_selection.py",
+      "public_relative_path": "scripts/enrich_feature_selection.py",
+      "source_sha256": "52ceedd1e4a574404fd20bb8e9695203395b7bc22612319bb4d5a18d39086bb9",
+      "public_sha256": "52ceedd1e4a574404fd20bb8e9695203395b7bc22612319bb4d5a18d39086bb9",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/export_gpu_tensors.py",
+      "public_relative_path": "scripts/export_gpu_tensors.py",
+      "source_sha256": "bb82159b571baaf85af7835ff468482a400c4ccff76c90dadf932256a543d1e7",
+      "public_sha256": "bb82159b571baaf85af7835ff468482a400c4ccff76c90dadf932256a543d1e7",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/package_stage5_external.py",
+      "public_relative_path": "scripts/package_stage5_external.py",
+      "source_sha256": "fface46b6b07b686b952744461cbebd049c50059ec24946d3bc20a44a04b55cc",
+      "public_sha256": "fface46b6b07b686b952744461cbebd049c50059ec24946d3bc20a44a04b55cc",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/run_post_block11_sensitivity.py",
+      "public_relative_path": "scripts/run_post_block11_sensitivity.py",
+      "source_sha256": "c6e78fd6bba89db9e1aa8938b2f039b9a402e9592d828f3631e24ddc7c62b857",
+      "public_sha256": "c6e78fd6bba89db9e1aa8938b2f039b9a402e9592d828f3631e24ddc7c62b857",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "scripts/verify_workbook.py",
+      "public_relative_path": "scripts/verify_workbook.py",
+      "source_sha256": "291348d72cae4053aa6f7296ba3b25f27b42de99c326dca5885ab3ce8b6b471c",
+      "public_sha256": "291348d72cae4053aa6f7296ba3b25f27b42de99c326dca5885ab3ce8b6b471c",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_analysis.py",
+      "public_relative_path": "tests/test_analysis.py",
+      "source_sha256": "c6f85e7e6b93928bf4acc70bf9c7c2083555d4bc64b8b9cb86370664c15f9f7e",
+      "public_sha256": "c6f85e7e6b93928bf4acc70bf9c7c2083555d4bc64b8b9cb86370664c15f9f7e",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_colab_stage1_notebook.py",
+      "public_relative_path": "tests/test_colab_stage1_notebook.py",
+      "source_sha256": "5920ad6371a205bdb44cc69a3d0db98b491451a5d6608b8982e77187fdee82d6",
+      "public_sha256": "5920ad6371a205bdb44cc69a3d0db98b491451a5d6608b8982e77187fdee82d6",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_colab_stage1b2_notebook.py",
+      "public_relative_path": "tests/test_colab_stage1b2_notebook.py",
+      "source_sha256": "118b042c4833ab5c3550dd941d22236b5d8597fc281a38749cf6493a58bc447e",
+      "public_sha256": "118b042c4833ab5c3550dd941d22236b5d8597fc281a38749cf6493a58bc447e",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_colab_stage3_notebook.py",
+      "public_relative_path": "tests/test_colab_stage3_notebook.py",
+      "source_sha256": "ba661cd8c8da1a1b94d17e71067385732c6c96a824a9a0a22bffc43d7327bbd0",
+      "public_sha256": "ba661cd8c8da1a1b94d17e71067385732c6c96a824a9a0a22bffc43d7327bbd0",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_deep_explainability.py",
+      "public_relative_path": "tests/test_deep_explainability.py",
+      "source_sha256": "a867aec688b73d1f1199f15bd1640b08a76786109f3fe1e10ede826fdddc64b2",
+      "public_sha256": "a867aec688b73d1f1199f15bd1640b08a76786109f3fe1e10ede826fdddc64b2",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_evaluation.py",
+      "public_relative_path": "tests/test_evaluation.py",
+      "source_sha256": "dd47efe4d1ed87e7ba25ea6da1040f20805f245403e28d7ae855e8e4804978e1",
+      "public_sha256": "dd47efe4d1ed87e7ba25ea6da1040f20805f245403e28d7ae855e8e4804978e1",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_evbattery.py",
+      "public_relative_path": "tests/test_evbattery.py",
+      "source_sha256": "186291d72db7ac3a8ef40ec47e217fd9e5c377873250938e53cdc73e45019df8",
+      "public_sha256": "186291d72db7ac3a8ef40ec47e217fd9e5c377873250938e53cdc73e45019df8",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_eve.py",
+      "public_relative_path": "tests/test_eve.py",
+      "source_sha256": "d73022e055c8a7a373450a126da79b4b9435541c6ee92107a44d41aec277295b",
+      "public_sha256": "d73022e055c8a7a373450a126da79b4b9435541c6ee92107a44d41aec277295b",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_external_validation.py",
+      "public_relative_path": "tests/test_external_validation.py",
+      "source_sha256": "4d1f8e7b6b10b52f093d1c582dc4bdfe7cb71a21a8e952be18e8804e9928c5ce",
+      "public_sha256": "4d1f8e7b6b10b52f093d1c582dc4bdfe7cb71a21a8e952be18e8804e9928c5ce",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_models.py",
+      "public_relative_path": "tests/test_models.py",
+      "source_sha256": "f8cb21fcf2c7fa7b89d45d484177005d23178d270c172540e1d5fb9109ae60ad",
+      "public_sha256": "f8cb21fcf2c7fa7b89d45d484177005d23178d270c172540e1d5fb9109ae60ad",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_nissan_physics.py",
+      "public_relative_path": "tests/test_nissan_physics.py",
+      "source_sha256": "f0eb339a5c8392652cee1cf9cf77b5975238d10b748905b56baab416a541e68a",
+      "public_sha256": "f0eb339a5c8392652cee1cf9cf77b5975238d10b748905b56baab416a541e68a",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_physics_corrected.py",
+      "public_relative_path": "tests/test_physics_corrected.py",
+      "source_sha256": "3548e8f92e9446bc36078203eb9f59e87bccbdbfb6b6eb869cb6ec6accdd2ad5",
+      "public_sha256": "3548e8f92e9446bc36078203eb9f59e87bccbdbfb6b6eb869cb6ec6accdd2ad5",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_physics_kan.py",
+      "public_relative_path": "tests/test_physics_kan.py",
+      "source_sha256": "6cedfe0a713dcae41d00158875f255a5b1528f0798efbd298ecffb6e681e0c6f",
+      "public_sha256": "6cedfe0a713dcae41d00158875f255a5b1528f0798efbd298ecffb6e681e0c6f",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_physics_patchkan.py",
+      "public_relative_path": "tests/test_physics_patchkan.py",
+      "source_sha256": "d0b98016750ed1a57d2d445b49ac9f3b088e08cd4ed6669cf1040648abb6e86a",
+      "public_sha256": "d0b98016750ed1a57d2d445b49ac9f3b088e08cd4ed6669cf1040648abb6e86a",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_preprocessing.py",
+      "public_relative_path": "tests/test_preprocessing.py",
+      "source_sha256": "aaab2a5650c8fc59410878e878bbc5c47ff40844fd40b458ad56a437ce810e20",
+      "public_sha256": "aaab2a5650c8fc59410878e878bbc5c47ff40844fd40b458ad56a437ce810e20",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_rwth.py",
+      "public_relative_path": "tests/test_rwth.py",
+      "source_sha256": "a2616613dbaab9b1e1e1070cc12afb02c801781fea26ffe93175a42a9913b91d",
+      "public_sha256": "a2616613dbaab9b1e1e1070cc12afb02c801781fea26ffe93175a42a9913b91d",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_stage10_normalized_transfer.py",
+      "public_relative_path": "tests/test_stage10_normalized_transfer.py",
+      "source_sha256": "22adc08ad809ff55d632d985a279c740cb2811cd37d2265307b9076bcc334408",
+      "public_sha256": "22adc08ad809ff55d632d985a279c740cb2811cd37d2265307b9076bcc334408",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_stage11_packse_mil.py",
+      "public_relative_path": "tests/test_stage11_packse_mil.py",
+      "source_sha256": "9a3231865b66e2c915443e2aeec64fdf78fc2d0a42dbcfb0db653beff9b1fb13",
+      "public_sha256": "9a3231865b66e2c915443e2aeec64fdf78fc2d0a42dbcfb0db653beff9b1fb13",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_stage13_persistence_forecast.py",
+      "public_relative_path": "tests/test_stage13_persistence_forecast.py",
+      "source_sha256": "1149cafdb9a8e95caedf76b5fd5d5e5dc31415ec31d788db164ccd69f5fa13dd",
+      "public_sha256": "1149cafdb9a8e95caedf76b5fd5d5e5dc31415ec31d788db164ccd69f5fa13dd",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_stage13b_recent_methods.py",
+      "public_relative_path": "tests/test_stage13b_recent_methods.py",
+      "source_sha256": "fd09f08f86112f396f01440cfbff8f00af5182cc463ad1bf1b1357832e970db6",
+      "public_sha256": "fd09f08f86112f396f01440cfbff8f00af5182cc463ad1bf1b1357832e970db6",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_stage13c_timepro.py",
+      "public_relative_path": "tests/test_stage13c_timepro.py",
+      "source_sha256": "522d52f36548bd5c15870c68300d7397f0e40d17b2d70b5446fc45f6d669d5c6",
+      "public_sha256": "522d52f36548bd5c15870c68300d7397f0e40d17b2d70b5446fc45f6d669d5c6",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_stage15_remote.py",
+      "public_relative_path": "tests/test_stage15_remote.py",
+      "source_sha256": "fc1f24467b8887ecc9dabe3fe867d8657b53150e10d2c1a361291a658d40334b",
+      "public_sha256": "fc1f24467b8887ecc9dabe3fe867d8657b53150e10d2c1a361291a658d40334b",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_stage9_cpu.py",
+      "public_relative_path": "tests/test_stage9_cpu.py",
+      "source_sha256": "137d88abf1c32b9c32629158cef41324583fd780b9bc94cc935e819e231322aa",
+      "public_sha256": "137d88abf1c32b9c32629158cef41324583fd780b9bc94cc935e819e231322aa",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_tensors.py",
+      "public_relative_path": "tests/test_tensors.py",
+      "source_sha256": "40b80815e75669511c8690acf8738bf6848663f375d3c11135c91348b55b923c",
+      "public_sha256": "40b80815e75669511c8690acf8738bf6848663f375d3c11135c91348b55b923c",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_trip_pooling.py",
+      "public_relative_path": "tests/test_trip_pooling.py",
+      "source_sha256": "1646936c102ec9238dba8732691d8f709d367e115dfd45909bcb88b9cb8b87f6",
+      "public_sha256": "1646936c102ec9238dba8732691d8f709d367e115dfd45909bcb88b9cb8b87f6",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_tuning.py",
+      "public_relative_path": "tests/test_tuning.py",
+      "source_sha256": "54f32a3bfa3be243d954611e396fa53263199aa7514f1021d5e6cdbcfd854e87",
+      "public_sha256": "54f32a3bfa3be243d954611e396fa53263199aa7514f1021d5e6cdbcfd854e87",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "tests/test_workbook_scripts.py",
+      "public_relative_path": "tests/test_workbook_scripts.py",
+      "source_sha256": "17aa5bffad89b5fde3a1c1988392f8efbb396c4a47755fca26defdd3f6c10c52",
+      "public_sha256": "17aa5bffad89b5fde3a1c1988392f8efbb396c4a47755fca26defdd3f6c10c52",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "configs/default.yaml",
+      "public_relative_path": "configs/default.yaml",
+      "source_sha256": "069ff97bfe6604111d195ecd2419d9f26a95a08ecfbc809167f85ef057caee23",
+      "public_sha256": "069ff97bfe6604111d195ecd2419d9f26a95a08ecfbc809167f85ef057caee23",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "notebooks/01_colab_a100_reduced_stage1.ipynb",
+      "public_relative_path": "notebooks/01_colab_a100_reduced_stage1.ipynb",
+      "source_sha256": "34d912e14191667190af684fda8fe0409e256a931b9b7b1096c3932ca09b26ad",
+      "public_sha256": "98f8b352b237b9e3ba3f90fd475468059c70675182c205c3b5ba73f14b057f8b",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/02_colab_a100_stage1b_stage2_selection.ipynb",
+      "public_relative_path": "notebooks/02_colab_a100_stage1b_stage2_selection.ipynb",
+      "source_sha256": "4dd26f249331265b5f0e35465b91b391dd5a445e513c6fca6753fb8acd80b346",
+      "public_sha256": "5e97316de8957d2f80977d58aa202219f902f2173c8646165b8ea405e041dbc0",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/03_colab_a100_kan_explainability.ipynb",
+      "public_relative_path": "notebooks/03_colab_a100_kan_explainability.ipynb",
+      "source_sha256": "470ef9baf63412884ba668fea7d6f176114f391e109638df5bdbaa759a8fc95e",
+      "public_sha256": "c44197ccdbb891500b7bc76fb5c62514c4e5186a548aab4a8abe2334ec807182",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/04_colab_a100_nissan_physics_hybrid.ipynb",
+      "public_relative_path": "notebooks/04_colab_a100_nissan_physics_hybrid.ipynb",
+      "source_sha256": "f75c196c341317d84fc10b00095aafbddce3c1b51b913477d9e1a38f3ab2b458",
+      "public_sha256": "7d6b0d82ce0bb54542a7acac34957765654f9d09d210b4ec8f2782959840db85",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/05_colab_a100_nissan_physics_corrected.ipynb",
+      "public_relative_path": "notebooks/05_colab_a100_nissan_physics_corrected.ipynb",
+      "source_sha256": "9dc9f3fde5e9ce507b271bd6a2d750f5bffb3ed968cfe59447def7ca6390e378",
+      "public_sha256": "583c8e7e518e72705da489db08f0739e9abfc6ba51697d2ae8b7f501943f0af4",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/06_colab_a100_stage5_rwth_eve_external_validation.ipynb",
+      "public_relative_path": "notebooks/06_colab_a100_stage5_rwth_eve_external_validation.ipynb",
+      "source_sha256": "ac736a1188c8770b0d9409079d5ce7b2babba286009db0fa13ea2946adbb1064",
+      "public_sha256": "5103401491534ad25fe41e22b3b60e4ed1832f5c65619d1e9eac555286dba0b9",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/07_colab_a100_stage6_unified_baselines_ablations.ipynb",
+      "public_relative_path": "notebooks/07_colab_a100_stage6_unified_baselines_ablations.ipynb",
+      "source_sha256": "983518e34dd85d970608ec1de7b4e032dd5593aaa2e4e596e336e9923c49b15e",
+      "public_sha256": "cf0438d9f000a41873903bd23c5fc8cbc989a5e781b7bc45be76b2fe1b05fddf",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/08_colab_a100_stage7_external_full_sequence.ipynb",
+      "public_relative_path": "notebooks/08_colab_a100_stage7_external_full_sequence.ipynb",
+      "source_sha256": "e476af752884121fe50ad4cc4b45aea7bc65997cf08a50cf67a1a365de194ea3",
+      "public_sha256": "b1a36df722d1dae53284de43871b17454a8951c6c929dbb37e459935d9a7f3e6",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/09_colab_a100_stage8_final_confirmation.ipynb",
+      "public_relative_path": "notebooks/09_colab_a100_stage8_final_confirmation.ipynb",
+      "source_sha256": "86704843f69e3b5125890f700b9ebcfee45550830394f4d571a7b918d594606a",
+      "public_sha256": "5000943ffc86221431d50a461c82a13eab8f84f5febe8fd73d9a83742e65c15b",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/10_colab_a100_stage10_normalized_transfer.ipynb",
+      "public_relative_path": "notebooks/10_colab_a100_stage10_normalized_transfer.ipynb",
+      "source_sha256": "a16a202082d269d2569f23158171d226a6aa6af49a3053d359d414087cff49ab",
+      "public_sha256": "ce79d01372bd008ad14e78d671d3d94927a3e18486a6d1e0b7569f954d3b6ccf",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/11_colab_a100_stage11_packse_residual_mil.ipynb",
+      "public_relative_path": "notebooks/11_colab_a100_stage11_packse_residual_mil.ipynb",
+      "source_sha256": "146f306a041e87f19c42361a6845e29abac7b4526a7cdb26c9f2d712bc46f50b",
+      "public_sha256": "78bf5320e1ad9cbb78b29aae11ee0fa5883bd9883408caabad318a87bebbdb88",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/12_colab_a100_evbattery_external_capacity.ipynb",
+      "public_relative_path": "notebooks/12_colab_a100_evbattery_external_capacity.ipynb",
+      "source_sha256": "81a06060851a566a0a8f5a69f664fbabf4e573ff2592abcc9be11cd5571bc659",
+      "public_sha256": "34f4a5daf21f749a0dc03b21cc3482deec99888ead9e98ec8bc903878670f1f2",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/13_colab_a100_persistence_anchored_forecast.ipynb",
+      "public_relative_path": "notebooks/13_colab_a100_persistence_anchored_forecast.ipynb",
+      "source_sha256": "e467497a1e75374e8163e463ad36dc26322504709bfc0e4cb01d95d6cb26f957",
+      "public_sha256": "19012efd990b519be5f4ae0938188ff314c796d00f26153cfbe1a9283907f1e6",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/14_colab_a100_stage13b_recent_methods.ipynb",
+      "public_relative_path": "notebooks/14_colab_a100_stage13b_recent_methods.ipynb",
+      "source_sha256": "593b4e91e54a234d8868876a3a8c5b397616f768e27f45bab287a670087536a2",
+      "public_sha256": "3502373a4fa6c2f34615eff67d4dcda285e178024ba4edb6890fba4d22a846ea",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/15_colab_a100_stage13c_timepro_posthoc.ipynb",
+      "public_relative_path": "notebooks/15_colab_a100_stage13c_timepro_posthoc.ipynb",
+      "source_sha256": "b05154b3d1a34098221769f7d175db5801625df54d1ad9d5361b90733890e82b",
+      "public_sha256": "ab7813dd8d4aa777912afa011dc08f369d2ab90b378cac76106b0d6e63688f0e",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/16_colab_a100_stage14_hyperparameter_sensitivity.ipynb",
+      "public_relative_path": "notebooks/16_colab_a100_stage14_hyperparameter_sensitivity.ipynb",
+      "source_sha256": "456ebaf0d167225d226ccef3391241c54885cb8168d086c41dfa14a900ecaa36",
+      "public_sha256": "e3ac65229bf1885342b0fd4683e466fb914e46bb568a1a3f2b48b01173bc4fa2",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/17_colab_a100_stage15_energy_ai_review.ipynb",
+      "public_relative_path": "notebooks/17_colab_a100_stage15_energy_ai_review.ipynb",
+      "source_sha256": "38c0f3ea6060d6276f0584aadf459c08828e7e6be7301c4006e579822269b37d",
+      "public_sha256": "923dee1da76db4e59b2db9b161f47bbb818873b6784f208a0e6ec9e13b9a7c21",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/colab_a100_train.ipynb",
+      "public_relative_path": "notebooks/colab_a100_train.ipynb",
+      "source_sha256": "5b9ae0d2289b4acd2657f7763e22173203ebfee6b10447d3a2a156dc490f6488",
+      "public_sha256": "57969e8ffd4afff1c157243018a0ea797975b8cda06c590b159fd479e2a0060f",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "notebooks/kaggle_t4_smoke.ipynb",
+      "public_relative_path": "notebooks/kaggle_t4_smoke.ipynb",
+      "source_sha256": "f69584e5a5976334636f28035c1b04f530b615246a0eb2509f3b56920697aaf0",
+      "public_sha256": "43335d26eff2c3142de4a4f950ccc434c30b9c38132021f34cfd067c77af87c4",
+      "mechanical_changes": true,
+      "changes": "strip execution results/identifiers; normalize JSON; redact private local paths"
+    },
+    {
+      "source_relative_path": "docs/data_contract.md",
+      "public_relative_path": "docs/data_contract.md",
+      "source_sha256": "f56c7f8349f3ffa6b1e19771643ec4be1fbfdb6c9954b8302c9d37174541289d",
+      "public_sha256": "f56c7f8349f3ffa6b1e19771643ec4be1fbfdb6c9954b8302c9d37174541289d",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "docs/research_protocol.md",
+      "public_relative_path": "docs/research_protocol.md",
+      "source_sha256": "3a9193b89746e5038347b3a7abd6ee6255eed8d5a79857aca6030fe078a1c5b0",
+      "public_sha256": "3a9193b89746e5038347b3a7abd6ee6255eed8d5a79857aca6030fe078a1c5b0",
+      "mechanical_changes": false
+    },
+    {
+      "source_relative_path": "docs/STAGE15_RESULTS_REVIEW.md",
+      "public_relative_path": "docs/STAGE15_RESULTS_REVIEW.md",
+      "source_sha256": "3b77ef2813314276f2e6e1fb0a3614e7512a8b1beec23044bf8982440da18d8b",
+      "public_sha256": "2e75f16bbed2dfdbb5bb565d4b012103d53ff8607029246ce18382452b286a74",
+      "mechanical_changes": true
+    },
+    {
+      "source_relative_path": "docs/DBPatchKAN_COMPLETE_RESEARCH_RECORD.md",
+      "public_relative_path": "docs/history/DBPatchKAN_COMPLETE_RESEARCH_RECORD.md",
+      "source_sha256": "aa91a023ddeffaac100816d9ea49a98eb265a5ccf8c0663e4e9a42bf8f4f9493",
+      "public_sha256": "a70c077d5f9a73aa6a479570c483cc3465bf85e88aeba88047dc1a9d56b45d83",
+      "mechanical_changes": true
+    },
+    {
+      "source_relative_path": "docs/DBPatchKAN_MANUSCRIPT_SOURCEBOOK.md",
+      "public_relative_path": "docs/history/DBPatchKAN_MANUSCRIPT_SOURCEBOOK.md",
+      "source_sha256": "d75235d6105f023483cce9a5883d373e5541cc6efb6a790bbf6630a91ae38c44",
+      "public_sha256": "d7e74cc68a1e8fac393ed082a36361a741de71b25c34086c832bdd181ee33839",
+      "mechanical_changes": true
+    },
+    {
+      "source_relative_path": "figures/generate_figures_8_10_visible.py",
+      "public_relative_path": "figures/generate_figures_8_10_visible.py",
+      "source_sha256": "7c018ce01c7eada6872570f523c5eeffb2d1aff8fd8e914894aa28051790de6c",
+      "public_sha256": "7c018ce01c7eada6872570f523c5eeffb2d1aff8fd8e914894aa28051790de6c",
+      "mechanical_changes": false
+    }
+  ],
+  "local_checks": "syntax and file integrity only"
+}

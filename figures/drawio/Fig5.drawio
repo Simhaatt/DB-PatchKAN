@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="Fig5" name="Figure 5">
+    <mxGraphModel dx="900" dy="600" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="552" pageHeight="236" math="1" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fig5-b1" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;Named concept&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px&quot;&gt;&lt;b&gt;vector \(\boldsymbol{\hat{\mathbf{c}}}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E4F0E5;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=11;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="80" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-b2" value="" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FAE3CC;strokeColor=#1B1E22;strokeWidth=1.4;container=1;collapsible=0;recursiveResize=0;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="16" width="216" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-t3" value="&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;KAN head&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="fig5-b2">
+          <mxGeometry x="4" y="7" width="208" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-t4" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{[n_c,\ 16,\ 8,\ n_{\mathrm{out}}]}\)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="fig5-b2">
+          <mxGeometry x="4" y="23" width="208" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-t5" value="&lt;span style=&quot;font-size:10px&quot;&gt;&lt;b&gt;Learnable univariate spline functions&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=10;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="fig5-b2">
+          <mxGeometry x="4" y="39" width="208" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-e6" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.2;startArrow=none;endArrow=none;curved=1;" edge="1" parent="fig5-b2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="70" as="sourcePoint" />
+            <mxPoint x="75" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="53" y="69" />
+              <mxPoint x="60" y="65" />
+              <mxPoint x="67" y="61" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fig5-e7" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.2;startArrow=none;endArrow=none;curved=1;" edge="1" parent="fig5-b2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="93" y="70" as="sourcePoint" />
+            <mxPoint x="123" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101" y="64" />
+              <mxPoint x="108" y="61" />
+              <mxPoint x="115" y="64" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fig5-e8" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.2;startArrow=none;endArrow=none;curved=1;" edge="1" parent="fig5-b2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141" y="66" as="sourcePoint" />
+            <mxPoint x="171" y="65" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="148" y="61" />
+              <mxPoint x="156" y="68" />
+              <mxPoint x="164" y="62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fig5-b9" value="" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DDEAF5;strokeColor=#1B1E22;strokeWidth=1.4;container=1;collapsible=0;recursiveResize=0;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="116" width="216" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-t10" value="&lt;span style=&quot;font-size:11.5px&quot;&gt;&lt;b&gt;Matched MLP control&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=11.5;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="fig5-b9">
+          <mxGeometry x="4" y="15" width="208" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-t11" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;\(\boldsymbol{[n_c,\ 32,\ 16,\ n_{\mathrm{out}}]}\)&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="fig5-b9">
+          <mxGeometry x="4" y="31" width="208" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-t12" value="&lt;span style=&quot;font-size:10px&quot;&gt;&lt;b&gt;Dense nonlinear mapping&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=10;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="fig5-b9">
+          <mxGeometry x="4" y="47" width="208" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-b13" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;KAN residual \(\boldsymbol{\hat{r}_{\mathrm{KAN}}}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E0F0EC;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="34" width="136" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-b14" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;MLP residual \(\boldsymbol{\hat{r}_{\mathrm{MLP}}}\)&lt;/b&gt;&lt;/span&gt;" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#E0F0EC;strokeColor=#1B1E22;strokeWidth=1.4;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=6;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="134" width="136" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-e15" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.7;startArrow=none;endArrow=block;endFill=1;endSize=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig5-b1" target="fig5-b2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="106" />
+              <mxPoint x="140" y="56" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fig5-e16" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.7;startArrow=none;endArrow=block;endFill=1;endSize=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig5-b1" target="fig5-b9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="106" />
+              <mxPoint x="140" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fig5-e17" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.7;startArrow=none;endArrow=block;endFill=1;endSize=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig5-b2" target="fig5-b13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-e18" style="edgeStyle=none;html=1;rounded=0;strokeColor=#1B1E22;strokeWidth=1.7;startArrow=none;endArrow=block;endFill=1;endSize=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fig5-b9" target="fig5-b14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fig5-t19" value="&lt;span style=&quot;font-size:10.5px&quot;&gt;&lt;b&gt;Shared encoder · concepts · targets · forecast anchor · data folds&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Arial;fontColor=#1B1E22;fontSize=10.5;align=center;verticalAlign=middle;spacing=0;spacingTop=0;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="208" width="520" height="16" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

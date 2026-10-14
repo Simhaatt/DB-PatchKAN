@@ -1,0 +1,16 @@
+target,fold,training_transitions,evaluation_transitions,status
+loss_30d,1,8.0,3.0,fit completed
+loss_30d,1,,,six-component NNLS omitted: insufficient independent supervision
+loss_30d,2,12.0,3.0,fit completed
+loss_30d,2,,,six-component NNLS omitted: insufficient independent supervision
+loss_30d,3,12.0,3.0,fit completed
+loss_30d,3,,,six-component NNLS omitted: insufficient independent supervision
+loss_30d,4,12.0,3.0,fit completed
+loss_30d,4,,,six-component NNLS omitted: insufficient independent supervision
+loss_500km,1,12.0,4.0,fit completed
+loss_500km,1,,,six-component NNLS omitted: insufficient independent supervision
+loss_500km,2,16.0,4.0,fit completed
+loss_500km,2,,,six-component NNLS omitted: insufficient independent supervision
+loss_500km,3,19.0,4.0,fit completed
+loss_500km,3,,,six-component NNLS omitted: insufficient independent supervision
+loss_500km,4,27.0,4.0,fit completed

@@ -1,0 +1,9 @@
+{
+  "evidence": "post-hoc subgroup analysis of frozen out-of-fold predictions",
+  "cluster_unit": "vehicle",
+  "draws": 10000,
+  "estimands": "vehicle-macro primary; row-weighted MAE separately retains cluster-resampled row counts to audit the reported long-horizon percentage",
+  "intervals": "coverage of previously saved bounds; averaging bounds is not new conformal calibration",
+  "cannot_tune_gate_from_these_results": true,
+  "manufacturer_ids": "anonymous released groups, not identified vehicle brands"
+}

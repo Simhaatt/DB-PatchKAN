@@ -1,0 +1,10 @@
+{
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "real_saved_checkpoint_weights": true,
+  "timing_inputs": "same zero-normalized synthetic input shapes for repeatability",
+  "memory": "weights, buffers, checkpoint bytes and sampled process RSS; allocator/process memory is not isolated model activation memory",
+  "energy_joules": "not measured; no CPU power meter available",
+  "not_user_device_latency": true,
+  "explanation": "training-median concept replacement on fold-1 held-out vehicles; diagnostics rather than causal attribution"
+}

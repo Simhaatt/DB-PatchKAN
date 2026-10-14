@@ -1,0 +1,35 @@
+{
+  "future_response_only": true,
+  "same_splits_and_targets": true,
+  "new_experiment_posthoc_on_known_datasets": true,
+  "driver_future_available": false,
+  "concepts": [
+    "speed_mean_mps",
+    "speed_std_mps",
+    "speed_last_mps",
+    "acceleration_rms_mps2",
+    "jerk_rms_mps3",
+    "stop_fraction",
+    "high_accel_fraction",
+    "current_last_a",
+    "current_squared_mean_a2",
+    "voltage_last_v",
+    "soc_last_pct",
+    "pack_temperature_last_c",
+    "ambient_last_c",
+    "pack_spread_last_c",
+    "observed_history_fraction"
+  ],
+  "seed_values": [
+    42,
+    52,
+    62
+  ],
+  "epochs_max": 30,
+  "physics_baseline": "nonnegative longitudinal power coefficients; nonnegative effective resistance; nonnegative lumped heating/cooling gains; inner-training calibration only. Additional physics-feature Ridge also retained.",
+  "time_normalized_whole_trip_inputs_used": false,
+  "physics_soft_penalty_used": false,
+  "shared_output_bounds": "abs-current >= 0; voltage 0-500 V; high-current exposure 0-horizon seconds, applied to every family before scoring; signed current, energy and temperature change remain signed",
+  "independent_health_validation": false,
+  "EVE_uncertainty": "7-day time blocks on one vehicle; exploratory temporal uncertainty, not cross-vehicle generalization"
+}

@@ -1,0 +1,114 @@
+project:
+  name: DB-PatchKAN
+  seed: 42
+  output_dir: outputs/dbpatchkan
+
+data:
+  source_csv: "Nissan Leaf Real-World Data (1) (1).csv"
+  dataset_id: nissan_leaf_2018_01
+  vehicle_id: leaf_01
+  timestamp_unit: us
+  canonical_discharge_positive: true
+  segment_gap_seconds: 2.0
+  resample_frequency: 1s
+  segment_length: 256
+  segment_stride: 64
+  min_window_coverage: 0.80
+  nominal_energy_kwh: 40.0
+  nominal_voltage_v: 360.0
+  nominal_capacity_ah: 111.11
+
+qc:
+  speed_kmh: [0.0, 200.0]
+  voltage_v: [240.0, 420.0]
+  soc_pct: [0.0, 100.0]
+  pack_temperature_c: [-20.0, 70.0]
+  tire_pressure_kpa: [150.0, 400.0]
+  rpm_sentinels: [16383.0]
+  motor_temperature_sentinels: [-40.0]
+
+dbsi:
+  weights:
+    rate: 0.25
+    thermal: 0.25
+    soc: 0.15
+    cycle: 0.15
+    transient: 0.10
+    interaction: 0.10
+  discharge_c_rate: [0.5, 3.0]
+  regen_c_rate: [0.3, 1.5]
+  high_temperature_c: [30.0, 45.0]
+  temperature_spread_c: [3.0, 10.0]
+  high_soc_pct: [80.0, 100.0]
+  low_soc_pct: [20.0, 0.0]
+  dod_pct: [20.0, 80.0]
+  c_rate_slew: [0.1, 1.0]
+  cold_regen_below_c: 10.0
+
+feature_selection:
+  missing_threshold: 0.40
+  dominant_value_threshold: 0.995
+  spearman_threshold: 0.90
+  stability_bootstraps: 100
+  stability_threshold: 0.70
+  candidate_budgets: [8, 12, 16, 20, 24, 32]
+  kan_max_concepts: 20
+
+clustering:
+  k_min: 2
+  k_max: 6
+  pca_variance: 0.95
+  bootstrap_ari_threshold: 0.75
+  min_cluster_fraction: 0.05
+  n_init: 20
+
+model:
+  driver_channels: [speed_mps, accel_mps2, jerk_mps3, torque_nm, accel_pedal_norm, brake_active, rpm_abs, eco, epedal]
+  battery_channels: [voltage_v, current_discharge_a, soc_pct, pack_temp_avg_c, pack_temp_spread_c, ambient_temp_c, hvac_power_w]
+  segment_length: 256
+  patch_length: 16
+  patch_stride: 8
+  d_model: 128
+  transformer_blocks: 3
+  attention_heads: 4
+  ffn_dim: 256
+  dropout: 0.10
+  mask_ratio: 0.40
+  kan_hidden: [16, 8]
+  kan_grid_size: 5
+  kan_spline_order: 3
+
+training:
+  hierarchical_trip_bags: true
+  optimizer: adamw
+  pretrain_lr: 0.0003
+  encoder_finetune_lr: 0.00001
+  head_lr: 0.0003
+  weight_decay: 0.01
+  warmup_fraction: 0.05
+  gradient_clip: 1.0
+  pretrain_epochs: 60
+  finetune_epochs: 80
+  early_stopping_patience: 15
+  seeds: [42, 52, 62, 72, 82]
+  a100:
+    precision: bf16
+    # SSL batches count independent segments; fine-tuning batches count whole
+    # variable-size trip bags (6-279 segments in the Nissan export).
+    pretrain_batch_size: 256
+    finetune_batch_size: 2
+    gradient_accumulation: 1
+  t4:
+    precision: fp16
+    # Preserve every segment in each bag; one trip is the safe 16-GB setting.
+    pretrain_batch_size: 32
+    finetune_batch_size: 1
+    gradient_accumulation: 4
+
+validation:
+  nissan_final_test_fraction: 0.20
+  expanding_folds: 4
+  forecast_days: 30
+  forecast_days_tolerance: 7
+  forecast_km: 500
+  forecast_km_tolerance: 100

@@ -1,0 +1,12 @@
+{
+  "trips": 127,
+  "distinct_raw_soh_values": 56,
+  "minimum_positive_observed_step_pp": 0.009999999999990905,
+  "raw_increases": 0,
+  "raw_plateaus": 71,
+  "trend_plateaus": 70,
+  "noise_interpretation": "BMS changes/increases are recorded; recalibration cannot be identified without independent capacity diagnostics",
+  "single_vehicle": true,
+  "checkpoint_clusters_are_not_independent_vehicles": true,
+  "unmapped_targets": 0
+}

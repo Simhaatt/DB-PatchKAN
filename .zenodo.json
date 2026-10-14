@@ -1,0 +1,13 @@
+{
+  "title": "DB-PatchKAN: Horizon-Adaptive Battery Capacity Forecasting and Driver-Aware Stress Modelling from Electric-Vehicle Field Data",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {"name": "Aswathy B. Raj", "affiliation": "Department of Electrical Engineering, National Institute of Technology Calicut, Kozhikode, Kerala, India"},
+    {"name": "T. T. Simhaa", "affiliation": "Department of Electrical and Electronics Engineering, Sri Sivasubramaniya Nadar College of Engineering, Chennai, Tamil Nadu, India"},
+    {"name": "Shihabudheen K. V.", "affiliation": "Department of Electrical Engineering, National Institute of Technology Calicut, Kozhikode, Kerala, India"}
+  ],
+  "description": "Initial research software snapshot accompanying Horizon-Adaptive Battery Capacity Forecasting and Driver-Aware Stress Modelling from Electric-Vehicle Field Data. Includes source, notebooks, synthetic tests, supplied figures and selected aggregate result tables. Raw third-party data and model checkpoints are not included. See the documented dataset-specific scientific boundaries, missing locked 30-day targets, incomplete measurement-uncertainty audit, and sparse future thermal labels. This software record does not assert a calibrated pack degradation law or universal KAN superiority.",
+  "keywords": ["electric vehicles", "battery health", "battery capacity", "driver behaviour", "KAN", "concept bottleneck", "persistence forecasting", "reproducibility"]
+}
