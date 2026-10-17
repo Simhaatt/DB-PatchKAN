@@ -48,14 +48,6 @@
       "bytes": 2742,
       "sha256": "c6563698ff65f738e682d39ff0a4341859ddc99bdba5c1bae0d45d08815fbde5"
     },
-    "docs/history/DBPatchKAN_COMPLETE_RESEARCH_RECORD.md": {
-      "bytes": 138743,
-      "sha256": "a70c077d5f9a73aa6a479570c483cc3465bf85e88aeba88047dc1a9d56b45d83"
-    },
-    "docs/history/DBPatchKAN_MANUSCRIPT_SOURCEBOOK.md": {
-      "bytes": 188205,
-      "sha256": "d7e74cc68a1e8fac393ed082a36361a741de71b25c34086c832bdd181ee33839"
-    },
     "docs/KNOWN_LIMITATIONS.md": {
       "bytes": 2635,
       "sha256": "82f077f6af5892874024d71eb0d19358c76835f71d4cea73ca76149c30e88352"
@@ -71,10 +63,6 @@
     "docs/STAGE15_RESULTS_REVIEW.md": {
       "bytes": 20118,
       "sha256": "2e75f16bbed2dfdbb5bb565d4b012103d53ff8607029246ce18382452b286a74"
-    },
-    "docs/ZENODO_CHECKLIST.md": {
-      "bytes": 1923,
-      "sha256": "bf7560fe8129dcac009e18ed4befa82a58c3e6f1d55ddf34425579b43fad01cc"
     },
     "FIGURE_ARCHIVE_MANIFEST.json": {
       "bytes": 6527,
@@ -385,8 +373,8 @@
       "sha256": "8efdbdd80bc8a7da873c54c8fa5b0c84b71efffd7a66f3895e2d16c21c8966f8"
     },
     "README.md": {
-      "bytes": 6188,
-      "sha256": "85b6ec26a18cbfd4b7af111ddbf7a570e9c20ed788b795914317492d11227b1f"
+      "bytes": 5880,
+      "sha256": "7cc2194949f897ebd235c0fbfa95a4f94890f59d90c9c371c63882371b612214"
     },
     "REFERENCE_RESULT_MANIFEST.json": {
       "bytes": 7927,

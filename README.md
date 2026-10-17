@@ -12,7 +12,7 @@ This repository contains research code, clean Colab notebooks, configurations, s
 2. For the public charging-capacity workflow, open [the bootstrap notebook](notebooks/00_public_fleet_reproduction.ipynb) in Colab. Use an A100 for training. Download the three EVBattery archives from their original publisher and put them in Drive.
 3. For existing numerical evidence, see [selected aggregate tables](results/reference/README.md). These are copies of saved results, not new executions.
 4. For manuscript graphics, see [the figure inventory](docs/FIGURES.md). Supplied editable/vector figures are preserved, including both Figure 8 versions and the supplied Figure 10 PDF.
-5. Before interpreting any result, read [known limitations](docs/KNOWN_LIMITATIONS.md). Later audits take precedence over historical narrative documents.
+5. Before interpreting any result, read [known limitations](docs/KNOWN_LIMITATIONS.md).
 
 ## What is implemented
 
@@ -60,10 +60,10 @@ D-BSI is an engineered operational stress descriptor, not a calibrated degradati
 
 ## Citation and licensing
 
-Citation metadata are in [CITATION.cff](CITATION.cff) and [.zenodo.json](.zenodo.json). Author order and software MIT licensing were confirmed by the repository owner. No ORCIDs, author email addresses, publication DOI or affiliation identifiers have been invented.
+Citation metadata are in [CITATION.cff](CITATION.cff) and [.zenodo.json](.zenodo.json).
 
 Original software is available under [MIT](LICENSE). This does not relicense third-party datasets. Paper figures are included as author-supplied research materials; no separate CC-BY license is asserted for them. Preserve attribution and consult the authors if a separate figure-reuse license is required.
 
 ## Verification status
 
-The package was prepared with file operations, source/notebook syntax checks and checksums. No local scientific analyses or model training were rerun during publication preparation. GitHub Actions performs a selected synthetic smoke suite on a remote runner; that is not a reproduction of the paper's numerical results. Check the actual Actions status rather than assuming it passed.
+The package was prepared with file operations, source/notebook syntax checks and checksums. No local scientific analyses or model training were rerun during publication preparation. GitHub Actions performs a selected synthetic smoke suite on a remote runner; that is not a reproduction of the paper's numerical results.
